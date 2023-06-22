@@ -3,7 +3,6 @@ import java.util.ArrayList;
 public class Game {
 
     private ArrayList<Player> playerList = new ArrayList<>();
-    Player player = new Player();
 
     public void register(Player player) {
         if (!playerList.contains(player)) {
@@ -13,7 +12,7 @@ public class Game {
 
     public Player findByName(String name) {
         for (Player player : playerList) {
-            if (name == player.getName()) {
+            if (name.equals(player.getName())) {
                 return player;
             }
         }
@@ -41,4 +40,3 @@ public class Game {
         }
     }
 }
-

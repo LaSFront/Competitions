@@ -4,5 +4,3 @@ public class NotRegisteredException extends RuntimeException {
         super(s);
     }
 }
-
-

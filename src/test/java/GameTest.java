@@ -23,8 +23,6 @@ public class GameTest {
         boolean actual = playerList.contains(4);
 
         Assertions.assertEquals(true, true);
-
-
     }
 
     @Test
@@ -36,7 +34,6 @@ public class GameTest {
 
         Assertions.assertEquals(new Player(1, "Иванов", 1), game.findByName("Иванов"));
     }
-
 
     @Test
     public void shouldFindByNameIfPlayerIsNotInList() {
@@ -52,7 +49,6 @@ public class GameTest {
 
         Assertions.assertNull(game.findByName("Пляков"));
     }
-
 
     @Test
     public void shouldFindByNameIfPlayerIsInList() {
@@ -147,4 +143,3 @@ public class GameTest {
         });
     }
 }
-
