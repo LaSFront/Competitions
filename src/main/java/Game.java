@@ -7,7 +7,7 @@ public class Game {
 
     public void register(Player player) {
         if (!playerList.contains(player)) {
-         playerList.add(player);
+            playerList.add(player);
         }
     }
 

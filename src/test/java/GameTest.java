@@ -3,7 +3,6 @@ import org.junit.jupiter.api.Test;
 
 import java.util.ArrayList;
 
-
 public class GameTest {
 
     @Test
@@ -23,7 +22,7 @@ public class GameTest {
         boolean expected = playerList.contains(4);
         boolean actual = playerList.contains(4);
 
-        Assertions.assertEquals(true,true);
+        Assertions.assertEquals(true, true);
 
 
     }
